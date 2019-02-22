@@ -383,7 +383,7 @@ For the requirement of ranking search. We use the vector space model to implemen
 
 
 
-Email:  Key <tavik002@gmail.com>
+Email:  Peter <chenqi1123344@gmail.com>
 
 -----
 ## License
