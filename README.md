@@ -51,7 +51,7 @@ The project is an inverted index for a set of documents, and then the inverted i
 
 #### 1.1 Download the Program
 ```bash
-git clone git@github.com:tavik000/SearchSystem.git
+git clone git@github.com:Cqyhid/SearchSystem.git
 ```
 
 #### 1.2 Change directory
