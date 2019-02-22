@@ -23,7 +23,6 @@
 * [User Manual](#user-manual)
 * [Documentation](#documentation)
 * [Development Introduction](#development-introduction)
-* [Development Introduction](development-introduction)
 * [Contact](#contact)
 * [License](#license)
 
@@ -386,6 +385,7 @@ For the requirement of ranking search. We use the vector space model to implemen
 
 
 Email:  Peter <chenqi1123344@gmail.com>
+
 Email:  Key <tavik002@gmail.com>
 
 
