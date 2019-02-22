@@ -1,6 +1,6 @@
 <p align="center">
   <h1 align="center">A Simple Search System</h1>
-  <p align="center">with Python</p>
+  <p align="center">in Python</p>
 </p> 
 
 
@@ -32,6 +32,26 @@
 ## Introduction
 
 The project is an inverted index for a set of documents, and then the inverted index is used to implement quick search for various kinds of query. The input of the program is a large collection of English documents. 
+
+### Project Requirement
+
+#### Basic
+- Use the Inverted Index approach to implement a simple Index and Query system for the given document set.
+- The system is able to search the relevant documents for a single term query, such as., “movie” or “retrieval”.
+- Write an interface for the program which is able to
+	- Let users input the document directory for indexing;
+	- Let users input the query they want to search;
+	- Display the names of the retrieved documents for users.
+
+#### Advanced 
+- The system is able to search the relevant documents for a composite query consisting of two or more words connected by “OR” or “AND”, e.g., “movie” AND “retrieval”; “movie” OR “TV”, etc. The composite query using both “AND” and “OR”, like (“action” OR “comedy”) AND “movie”,.is NOT required, 
+- The system is able to search the relevant documents for a phrase query consisting of two or more words, like “good movie”.
+
+#### Superior
+- The system is able to rank the relevant documents according to their relevance to the query (for example, by Vector Space Model) and display the documents according to the ranking results.
+- Develop a better interface for your program. For example, it can display the content of the retrieved documents to users. The words in the query should be highlighted.
+- Any other functions which may improve the indexing/searching quality. 
+
 
 
 ## Release
@@ -318,23 +338,31 @@ Calculate the IDF using the formula of log10(N/df)
 
 init(self):
 Display the command line interface of main menu to user.
+
 do_query_simple(self,file_collection):
 Get the query of user input of command line.
+
 do_query_boolean(self,file_collection):
 Get the query of user input of command line of using Boolean searching.
+
 do_query_multiwords(self,file_collection,position_information):
 Get the query of user input of command line of using Phase searching.
+
 do_query_ranking(self,final_word_list,file_collection,doc_idf):
 Get the query of user input of command line of using Vector Space Ranking searching.
+
 do_path_basic(self):
 Get the path of documents from user input.
+
 do_path_vector(self):
 Get the path of documents from user input when using vector space searching.
+
 display_results(self,data):
 Display the searching’s results.
 
 search_mode(self):
 Get the searching’s mode of user input. For user to select the searching’s mode.
+
 do_help(self):
 Display the command line instruction to users.
 
