@@ -22,7 +22,7 @@
 * [Installation](#installation)
 * [User Manual](#user-manual)
 * [Documentation](#documentation)
-* [Development Introduction](development-introduction)
+* [Development Introduction](#development-introduction)
 * [Contact](#contact)
 * [License](#license)
 
