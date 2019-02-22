@@ -22,7 +22,11 @@
 * [Installation](#installation)
 * [User Manual](#user-manual)
 * [Documentation](#documentation)
+<<<<<<< HEAD
 * [Development Introduction](#development-introduction)
+=======
+* [Development Introduction](development-introduction)
+>>>>>>> parent of b8aa8ce... update readme
 * [Contact](#contact)
 * [License](#license)
 
@@ -51,7 +55,11 @@ The project is an inverted index for a set of documents, and then the inverted i
 
 #### 1.1 Download the Program
 ```bash
+<<<<<<< HEAD
 git clone git@github.com:Cqyhid/SearchSystem.git
+=======
+git clone git@github.com:tavik000/SearchSystem.git
+>>>>>>> parent of b8aa8ce... update readme
 ```
 
 #### 1.2 Change directory
@@ -383,7 +391,11 @@ For the requirement of ranking search. We use the vector space model to implemen
 
 
 
+<<<<<<< HEAD
 Email:  Peter <chenqi1123344@gmail.com>
+=======
+Email:  Key <tavik002@gmail.com>
+>>>>>>> parent of b8aa8ce... update readme
 
 -----
 ## License
