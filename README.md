@@ -86,14 +86,14 @@ $ python main.py
 
 ## User Manual
 
-### Run the program 1.1
+### 1.1 Run the program 
 ```bash
 $ python main.py
 ```
 
 ![image](./ScreenShot/menu.png) <br>
 
-###  Select Searching Mode 1.2
+### 1.2 Select Searching Mode 
 ```bash
 $ basic
 ```
@@ -112,7 +112,7 @@ $ superior
 
 
 
-### Basic Mode Instruction 1.3.1.1
+### 1.3.1.1 Basic Mode Instruction 
 Type your Documents's path
 
 ```bash
@@ -123,14 +123,14 @@ $ C:\Users\Alpha\Desktop\IR\Assignment-1\data\data
 
 And wait until `Sorting completed!` is displayed.
 
-### Basic Mode Instruction 1.3.1.2
+### 1.3.1.2 Basic Mode Instruction 
 Type `query` to search
 
 ```bash
 $ query
 ```
 
-### Basic Mode Instruction 1.3.1.3
+### 1.3.1.3 Basic Mode Instruction 
 Input the query
 
 For Example
@@ -139,7 +139,7 @@ For Example
 $ Indians
 ```
 
-### Basic Mode Instruction 1.3.1.4
+### 1.3.1.4 Basic Mode Instruction 
 Check the results
 
 Relative documents and term's occur time would be display.
@@ -151,7 +151,7 @@ For Example
 Document name "D0601.M.250.A.A" have the term 'indians' two times.
 
 
-### Basic Mode Instruction 1.3.1.5
+### 1.3.1.5 Basic Mode Instruction 
 Terminate the program by typing 
 
 ```bash
@@ -159,7 +159,7 @@ $ exit
 ```
 
 
-### Advance Mode Instruction 1.3.2.1
+### 1.3.2.1 Advance Mode Instruction 
 
 Type your Documents's path
 
@@ -169,7 +169,7 @@ $ C:\Users\Alpha\Desktop\IR\Assignment-1\data\data
 
 And wait until `Sorting completed!` is displayed.
 
-### Advance Mode Instruction 1.3.2.2
+### 1.3.2.2 Advance Mode Instruction 
 
 Type `query` to search
 
@@ -177,7 +177,7 @@ Type `query` to search
 $ query
 ```
 
-### Advance Mode Instruction 1.3.2.3
+### 1.3.2.3 Advance Mode Instruction 
 
 Select phrase search or boolean search
 
@@ -191,7 +191,7 @@ or
 $ boolean
 ```
 
-### Advance Mode Instruction (Phrase Search) 1.3.2.4.1.1
+### 1.3.2.4.1.1 Advance Mode Instruction (Phrase Search) 
 
 Type the query
 
@@ -207,7 +207,7 @@ or
 $ indians comprise less
 ```
 
-### Advance Mode Instruction (Phrase Search) 1.3.2.4.1.2
+### 1.3.2.4.1.2 Advance Mode Instruction (Phrase Search) 
 
 Check the results
 
@@ -218,7 +218,7 @@ The results of the query is:
 `['D0601.M.250.A.A']`
 
 
-### Advance Mode Instruction (Phrase Search) 1.3.2.4.1.3
+### 1.3.2.4.1.3 Advance Mode Instruction (Phrase Search) 
 
 Terminate the program by typing 
 
@@ -226,7 +226,7 @@ Terminate the program by typing
 $ exit
 ```
 
-### Advance Mode Instruction (Boolean Search) 1.3.2.4.2.1
+### 1.3.2.4.2.1 Advance Mode Instruction (Boolean Search) 
 
 Type the query
 
@@ -242,11 +242,11 @@ or
 $ indians or less
 ```
 
-### Advance Mode Instruction (Boolean Search) 1.3.2.4.2.2
+### 1.3.2.4.2.2 Advance Mode Instruction (Boolean Search) 
 
 Check the results
 
-### Advance Mode Instruction (Boolean Search) 1.3.2.4.2.3
+### 1.3.2.4.2.3 Advance Mode Instruction (Boolean Search) 
 
 Terminate the program by typing 
 
@@ -254,7 +254,7 @@ Terminate the program by typing
 $ exit
 ```
 
-### Superior Mode Instruction 1.3.3.1
+### 1.3.3.1 Superior Mode Instruction 
 
 Type your Documents's path
 
@@ -265,7 +265,7 @@ $ C:\Users\Alpha\Desktop\IR\Assignment-1\data\data
 And wait until `Sorting completed!` is displayed.
 
 
-### Superior Mode Instruction 1.3.3.2
+### 1.3.3.2 Superior Mode Instruction 
 
 Type `query` to search
 
@@ -273,7 +273,7 @@ Type `query` to search
 $ query
 ```
 
-### Superior Mode Instruction 1.3.3.3
+### 1.3.3.3 Superior Mode Instruction 
 
 Type the query
 
@@ -283,7 +283,7 @@ For Example
 $ indians less comprise
 ```
 
-### Superior Mode Instruction 1.3.3.4
+### 1.3.3.4 Superior Mode Instruction 
 
 Check the results
 
@@ -298,7 +298,7 @@ The higher score indicates a better matched with the documents.
 
 
 
-### Superior Mode Instruction 1.3.3.5
+### 1.3.3.5 Superior Mode Instruction 
 
 Terminate the program by typing 
 
