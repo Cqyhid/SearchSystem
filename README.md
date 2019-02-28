@@ -374,7 +374,7 @@ $ exit
 
 #### 2.5.2.2.1.2 Check detail of result
 
-pending...
+![image](./ScreenShot/phrase_result.png) <br>
 
 #### 2.5.2.2.2.1 Advance Query (Boolean Search)
 
@@ -386,15 +386,17 @@ or <br>
 
 #### 2.5.2.2.2.2 Check detail of result
 
-pending...
+![image](./ScreenShot/phrase_result.png) <br>
 
 #### 2.5.3.1 Superior Query
 
 ![image](./ScreenShot/superior_query.png) <br>
 
+![image](./ScreenShot/superior_query2.png) <br>
+
 #### 2.5.3.2 Check detail of result
 
-pending
+![image](./ScreenShot/superior_result.png) <br>
 
 
 ## Documentation
