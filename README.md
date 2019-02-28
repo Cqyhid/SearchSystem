@@ -1,6 +1,6 @@
 <p align="center">
   <h1 align="center">A Simple Search System</h1>
-  <p align="center">in Python</p>
+  <p align="center">with Python</p>
 </p> 
 
 
@@ -55,11 +55,12 @@ The project is an inverted index for a set of documents, and then the inverted i
 
 
 ## Release
-- []() Pending...
+- [SearchSystem GUI Version](https://github.com/Cqyhid/SearchSystem/releases) 
 
 
 ## Environment
 - Python: 3.6.5 (also work with python 2) <br>
+- Windows OS <br>
 
 
 ## Author
@@ -69,6 +70,8 @@ The project is an inverted index for a set of documents, and then the inverted i
 
 ## Installation
 
+### For CLI Version
+
 #### 1.1 Download the Program
 ```bash
 git clone git@github.com:Cqyhid/SearchSystem.git
@@ -76,24 +79,50 @@ git clone git@github.com:Cqyhid/SearchSystem.git
 
 #### 1.2 Change directory
 ```bash
-$ cd QueryIndex
+$ cd QueryIndex\CLI
 ```
 #### 1.3 Run the program
 ```bash
 $ python main.py
 ```
 
+### For GUI Version
+
+#### 2.1 Run the .exe program from your computer directly
+[Download from Release](#release)
+
+#### 2.2.1 Download the Program (If you want to run the python program locally)
+```bash
+git clone git@github.com:Cqyhid/SearchSystem.git
+```
+
+#### 2.2.2 Change directory
+```bash
+$ cd QueryIndex\GUI
+```
+
+#### 2.2.3 Install Kivy Package 
+
+Follow [Kivy's Document](https://kivy.org/doc/stable/installation/installation.html#installation-devel) for installation
+
+#### 2.2.4 Run the program
+
+```bash
+$ python kivy_main.py
+```
 
 ## User Manual
 
-### 1.1 Run the program 
+### For CLI Version
+
+#### 1.1 Run the program 
 ```bash
 $ python main.py
 ```
 
 ![image](./ScreenShot/menu.png) <br>
 
-### 1.2 Select Searching Mode 
+#### 1.2 Select Searching Mode 
 ```bash
 $ basic
 ```
@@ -112,7 +141,7 @@ $ superior
 
 
 
-### 1.3.1.1 Basic Mode Instruction 
+#### 1.3.1.1 Basic Mode Instruction 
 Type your Documents's path
 
 ```bash
@@ -123,14 +152,14 @@ $ C:\Users\Alpha\Desktop\IR\Assignment-1\data\data
 
 And wait until `Sorting completed!` is displayed.
 
-### 1.3.1.2 Basic Mode Instruction 
+#### 1.3.1.2 Basic Mode Instruction 
 Type `query` to search
 
 ```bash
 $ query
 ```
 
-### 1.3.1.3 Basic Mode Instruction 
+#### 1.3.1.3 Basic Mode Instruction 
 Input the query
 
 For Example
@@ -139,7 +168,7 @@ For Example
 $ Indians
 ```
 
-### 1.3.1.4 Basic Mode Instruction 
+#### 1.3.1.4 Basic Mode Instruction 
 Check the results
 
 Relative documents and term's occur time would be display.
@@ -151,7 +180,7 @@ For Example
 Document name "D0601.M.250.A.A" have the term 'indians' two times.
 
 
-### 1.3.1.5 Basic Mode Instruction 
+#### 1.3.1.5 Basic Mode Instruction 
 Terminate the program by typing 
 
 ```bash
@@ -159,7 +188,7 @@ $ exit
 ```
 
 
-### 1.3.2.1 Advance Mode Instruction 
+#### 1.3.2.1 Advance Mode Instruction 
 
 Type your Documents's path
 
@@ -169,7 +198,7 @@ $ C:\Users\Alpha\Desktop\IR\Assignment-1\data\data
 
 And wait until `Sorting completed!` is displayed.
 
-### 1.3.2.2 Advance Mode Instruction 
+#### 1.3.2.2 Advance Mode Instruction 
 
 Type `query` to search
 
@@ -177,7 +206,7 @@ Type `query` to search
 $ query
 ```
 
-### 1.3.2.3 Advance Mode Instruction 
+#### 1.3.2.3 Advance Mode Instruction 
 
 Select phrase search or boolean search
 
@@ -191,7 +220,7 @@ or
 $ boolean
 ```
 
-### 1.3.2.4.1.1 Advance Mode Instruction (Phrase Search) 
+#### 1.3.2.4.1.1 Advance Mode Instruction (Phrase Search) 
 
 Type the query
 
@@ -207,7 +236,7 @@ or
 $ indians comprise less
 ```
 
-### 1.3.2.4.1.2 Advance Mode Instruction (Phrase Search) 
+#### 1.3.2.4.1.2 Advance Mode Instruction (Phrase Search) 
 
 Check the results
 
@@ -218,7 +247,7 @@ The results of the query is:
 `['D0601.M.250.A.A']`
 
 
-### 1.3.2.4.1.3 Advance Mode Instruction (Phrase Search) 
+#### 1.3.2.4.1.3 Advance Mode Instruction (Phrase Search) 
 
 Terminate the program by typing 
 
@@ -226,7 +255,7 @@ Terminate the program by typing
 $ exit
 ```
 
-### 1.3.2.4.2.1 Advance Mode Instruction (Boolean Search) 
+#### 1.3.2.4.2.1 Advance Mode Instruction (Boolean Search) 
 
 Type the query
 
@@ -242,11 +271,11 @@ or
 $ indians or less
 ```
 
-### 1.3.2.4.2.2 Advance Mode Instruction (Boolean Search) 
+#### 1.3.2.4.2.2 Advance Mode Instruction (Boolean Search) 
 
 Check the results
 
-### 1.3.2.4.2.3 Advance Mode Instruction (Boolean Search) 
+#### 1.3.2.4.2.3 Advance Mode Instruction (Boolean Search) 
 
 Terminate the program by typing 
 
@@ -254,7 +283,7 @@ Terminate the program by typing
 $ exit
 ```
 
-### 1.3.3.1 Superior Mode Instruction 
+#### 1.3.3.1 Superior Mode Instruction 
 
 Type your Documents's path
 
@@ -265,7 +294,7 @@ $ C:\Users\Alpha\Desktop\IR\Assignment-1\data\data
 And wait until `Sorting completed!` is displayed.
 
 
-### 1.3.3.2 Superior Mode Instruction 
+#### 1.3.3.2 Superior Mode Instruction 
 
 Type `query` to search
 
@@ -273,7 +302,7 @@ Type `query` to search
 $ query
 ```
 
-### 1.3.3.3 Superior Mode Instruction 
+#### 1.3.3.3 Superior Mode Instruction 
 
 Type the query
 
@@ -283,7 +312,7 @@ For Example
 $ indians less comprise
 ```
 
-### 1.3.3.4 Superior Mode Instruction 
+#### 1.3.3.4 Superior Mode Instruction 
 
 Check the results
 
@@ -298,13 +327,76 @@ The higher score indicates a better matched with the documents.
 
 
 
-### 1.3.3.5 Superior Mode Instruction 
+#### 1.3.3.5 Superior Mode Instruction 
 
 Terminate the program by typing 
 
 ```bash
 $ exit
 ```
+
+
+### For GUI Version
+
+#### 2.1 Download the GUI program
+[Download from Release](#release)
+
+#### 2.2 Run the .exe program from your computer directly
+
+![image](./ScreenShot/exefile.png) <br>
+
+#### 2.3 Choose Search Mode
+
+![image](./ScreenShot/mode_choose.png) <br>
+
+#### 2.4 Choose directory of documents
+
+![image](./ScreenShot/path_input.png) <br>
+
+**File Chooser might malfunction for now, better to input your path manually**
+![image](./ScreenShot/filechooser.png) <br>
+
+#### 2.5.1.1 Basic Query
+
+![image](./ScreenShot/basic_query.png) <br>
+
+#### 2.5.1.2 Check detail of result
+
+![image](./ScreenShot/basic_results_display.png) <br>
+
+#### 2.5.2.1 Advance Search Mode Option
+
+![image](./ScreenShot/advance_mode.png) <br>
+
+#### 2.5.2.2.1.1 Advance Query (Phrash Search)
+
+![image](./ScreenShot/phrase_query.png) <br>
+
+#### 2.5.2.2.1.2 Check detail of result
+
+![image](./ScreenShot/phrase_result.png) <br>
+
+#### 2.5.2.2.2.1 Advance Query (Boolean Search)
+
+![image](./ScreenShot/boolean_query.png) <br>
+
+or <br>
+
+![image](./ScreenShot/boolean_query_and.png) <br>
+
+#### 2.5.2.2.2.2 Check detail of result
+
+![image](./ScreenShot/phrase_result.png) <br>
+
+#### 2.5.3.1 Superior Query
+
+![image](./ScreenShot/superior_query.png) <br>
+
+![image](./ScreenShot/superior_query2.png) <br>
+
+#### 2.5.3.2 Check detail of result
+
+![image](./ScreenShot/superior_result.png) <br>
 
 
 ## Documentation
@@ -399,6 +491,9 @@ For the requirement of ranking search. We use the vector space model to implemen
 
 
 For improve the indexing and searching quality, we use Hashtable in Python for both indexing and searching. The dictionary component in Python is using the data structure of Hashtable.
+
+GUI, In this project, the python GUI was also developed by using kivy API. Users can choose the different mode in the kivy interface. When user click the button, the screen will jump to path input screen. User needs to type in the absolute path of the directory. If the path is incorrect, the system will inform user the error messages. After the sorting completed, the screen will jump to query interface where user can type in the query they want. If they choose the advance mode, they need to specify Boolean or Phrase search first before entering the query interface. In the query interface, the results will be displayed in the bottom of the screen as buttons. User can check the detail information of the return results by clicking the button with the document name they want. The screen will then display the full content of the file with the highlighted key query words.
+		The GUI search system used the logic in basic, advance and superior search system. The file reading and search logic has no changed. The basic mode only allows one-word query and the Boolean mode cannot search “AND” and “OR” simultaneously. Besides, the superior mode will display the score of each return file, the user can therefore choose the one with higher rank.
 
 
 <br>
