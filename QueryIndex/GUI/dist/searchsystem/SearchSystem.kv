@@ -1,0 +1,255 @@
+#:kivy 1.10.1
+#:import FadeTransition kivy.uix.screenmanager.FadeTransition
+
+ScreenManagement:
+    transition: FadeTransition()
+    SearchMode:
+    PathInput:
+        id: screen_path_input
+    Query:
+        id: screen_query
+
+    AdvanceModeOption:
+    DisplayResults:
+        id: screen_display_result
+    # screen_two: screen_two
+    # screen_three: screen_three
+
+    # ScreenOne:
+    #     id:screen_one
+    #     name: "Screen1"
+
+    # ScreenTwo:
+    #     id: screen_two
+    #     name: "Screen2"
+
+    # ScreenThree:
+    #     id: screen_three
+    #     name: "Screen3"
+
+<SearchMode>:
+    name:"sm"
+    BoxLayout:
+        orientation: 'vertical'
+        Button:
+            text:"Basic"
+            background_color: (0.0, 1.0, 0.0, 1.0)
+            on_release: app.root.current = "pi"
+            on_release: app.mode_name('Basic')
+            on_press: root.mode_choose('basic')
+            font_size:30
+            padding:[50,50]
+            pos_hint:{'center_x':.5}
+
+        Button:
+            text:"Advance"
+            background_color: (2, 0.9, 0.28, 1.0)
+            on_release: app.root.current = "pi"
+            on_press:root.mode_choose('advance')
+            font_size:30
+            padding:[50,50]
+            pos_hint:{'center_x':.5}
+        
+        Button:
+            text:"Superior"
+            background_color: (1.95, 0.3, 0.3, 1.0)
+            on_release: app.root.current = "pi"
+            on_release: app.mode_name('Superior')
+            on_press:root.mode_choose('superior')
+            font_size:30
+            padding:[50,50]
+            pos_hint:{'center_x': .5}
+
+
+
+<PathInput>:
+    name:"pi"
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: 1
+        
+        BoxLayout:
+            orientation: 'horizontal'
+            size_hint: [1.0,.3]
+            Label: 
+                text: "Document Path"
+                font_size:20
+                pos_hint: {'y':-0.4}
+                size_hint: [.2,.8]
+            Label: 
+                size_hint: [.8,.8]
+
+        BoxLayout:
+            orientation: 'horizontal'
+            padding: [10,0,10,10]
+            size_hint: [1.0,.2]
+            TextInput:
+                id:path
+                text: "Input your path here"
+                multiline: False
+                pos_hint: {'center_x':.5,'center_y':.5}
+                size_hint: [.9,.5]
+            Button:
+                text: "..."
+                on_release: root.popup_func()
+                pos_hint: {'center_x':.5,'center_y':.5}
+                size_hint: [.1,.5]
+
+        BoxLayout:
+            orientation: 'vertical'
+            padding: [10,10]
+            size_hint: [1.0, .5]
+            Button:
+                on_release: root.get_path()
+                pos_hint: {'center_x':.5,'center_y': 1.0}
+                size_hint: [None, None]
+                width:250
+                height:80
+                text: "Continute"
+            Label:
+                id:error_info
+                size_hint: [1 ,.8]
+  
+<ConfirmPopup>:
+    BoxLayout:
+        orientation: 'vertical'
+        FileChooserListView:
+            id: filechooser
+            filters: [root.is_dir]
+            
+
+        GridLayout:
+            cols: 2
+            size_hint: 1,0.2
+            Button:
+                text: 'Load'
+                # on_release: root.dispatch('on_answer', filechooser.path, app.root)
+                on_release: app.select_path(filechooser.path)
+                size_hint: 1,0.2
+            Button:
+                text: 'Cancel'
+                on_release: root.dispatch('on_answer', 'cancel',  app.root)
+                size_hint: 1,0.2
+
+<Query>:
+    name:"q"
+    BoxLayout:
+        orientation:"vertical"
+        BoxLayout:
+            orientation:"horizontal"
+            size_hint: [1.0,.2]
+            Label:
+                id:mode_name
+                font_size:20
+                size_hint: [.2 ,1.0]
+            Label:
+                size_hint: [.8 ,1.0]
+        BoxLayout:
+            orientation: 'horizontal'
+            padding: [10,0,10,10]
+            size_hint: [1.0,.2]
+            TextInput:
+                id:query
+                text: "Input your query here"
+                multiline: False
+                pos_hint: {'center_x':.5,'center_y':.5}
+                size_hint: [.9,.5]
+            Button:
+                text: "search"
+                background_color: (0.0, 1.0, 0.0, 1.0)
+                on_release: root.search()
+                pos_hint: {'center_x':.5,'center_y':.5}
+                size_hint: [.1,.5]
+        BoxLayout:
+            orientation:"horizontal"
+            size_hint: [1.0,.1]
+            Label:
+                text: "Results"
+                size_hint: [.2 ,1.0]
+            Label:
+                size_hint: [.8 ,1.0]
+        BoxLayout:
+            id:results
+            size_hint: [1.0 ,.5]
+            orientation:"vertical"
+            
+
+<AdvanceModeOption>:
+    name:"amo"
+    BoxLayout:
+        orientation: 'vertical'
+        spacing:50
+        Label:
+            size_hint: [None, .3]
+
+        Button:
+            text:"Phrase Search"
+            background_color: (2, 0.9, 0.28, 1.0)
+            on_release: app.root.current = "q"
+            on_release: app.mode_name('Advance(Phrase)')
+            on_press:root.get_search_mode('phrase')
+            font_size:14
+            padding:[50,50]
+            size_hint: [None, .2]
+            width:300
+            pos_hint:{'center_x':.5}
+        
+        Button:
+            text:"Boolean Search"
+            background_color: (0, 0.35, 0.98, 1.0)
+            on_release: app.root.current = "q"
+            on_release: app.mode_name('Advance(Boolean)')
+            on_press:root.get_search_mode('boolean')
+            font_size:14
+            padding:[50,50]
+            size_hint: [None, .2]
+            width:300
+            pos_hint:{'center_x': .5}
+        
+        Label:
+            size_hint: [None, .3]
+
+<DisplayResults>:
+    name:"dr"
+    BoxLayout:
+        orientation:"vertical"
+        BoxLayout:
+            size_hint: [1, .1]
+            orientation:"horizontal"
+            Label:
+                id:doc_name
+                size_hint: [.2, 1]
+            Label:
+                id:query_term
+                size_hint: [.8, 1]
+        BoxLayout:
+            size_hint: [1, .1]
+            orientation:"horizontal"
+            Label:
+                text: "Results"
+                size_hint: [.2, 1]
+            Label:
+                size_hint: [.8, 1]
+        BoxLayout:
+            size_hint: [1, .7]
+            orientation:"horizontal"
+            Label:
+                size_hint: [.1, 1]
+            Label:
+                id:content
+                size_hint: [.8, 1]
+                markup: True
+                pos: self.pos
+                size: self.size
+            Label:
+                size_hint: [.1, 1]
+        BoxLayout:
+            size_hint: [1, .1]
+            orientation:"horizontal"
+            Label:
+                size_hint: [.8, 1]
+            Button:
+                size_hint: [.2, None]
+                height: 45
+                text: "Back"
+                on_release: app.root.current = "q"
