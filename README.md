@@ -1,6 +1,6 @@
 <p align="center">
   <h1 align="center">A Simple Search System</h1>
-  <p align="center">with Python</p>
+  <p align="center">in Python</p>
 </p> 
 
 
@@ -23,7 +23,6 @@
 * [User Manual](#user-manual)
 * [Documentation](#documentation)
 * [Development Introduction](#development-introduction)
-* [Development Introduction](development-introduction)
 * [Contact](#contact)
 * [License](#license)
 
@@ -33,6 +32,26 @@
 ## Introduction
 
 The project is an inverted index for a set of documents, and then the inverted index is used to implement quick search for various kinds of query. The input of the program is a large collection of English documents. 
+
+### Project Requirement
+
+#### Basic
+- Use the Inverted Index approach to implement a simple Index and Query system for the given document set.
+- The system is able to search the relevant documents for a single term query, such as., “movie” or “retrieval”.
+- Write an interface for the program which is able to
+	- Let users input the document directory for indexing;
+	- Let users input the query they want to search;
+	- Display the names of the retrieved documents for users.
+
+#### Advanced 
+- The system is able to search the relevant documents for a composite query consisting of two or more words connected by “OR” or “AND”, e.g., “movie” AND “retrieval”; “movie” OR “TV”, etc. The composite query using both “AND” and “OR”, like (“action” OR “comedy”) AND “movie”,.is NOT required, 
+- The system is able to search the relevant documents for a phrase query consisting of two or more words, like “good movie”.
+
+#### Superior
+- The system is able to rank the relevant documents according to their relevance to the query (for example, by Vector Space Model) and display the documents according to the ranking results.
+- Develop a better interface for your program. For example, it can display the content of the retrieved documents to users. The words in the query should be highlighted.
+- Any other functions which may improve the indexing/searching quality. 
+
 
 
 ## Release
@@ -67,14 +86,14 @@ $ python main.py
 
 ## User Manual
 
-### Run the program 1.1
+### 1.1 Run the program 
 ```bash
 $ python main.py
 ```
 
 ![image](./ScreenShot/menu.png) <br>
 
-###  Select Searching Mode 1.2
+### 1.2 Select Searching Mode 
 ```bash
 $ basic
 ```
@@ -93,7 +112,7 @@ $ superior
 
 
 
-### Basic Mode Instruction 1.3.1.1
+### 1.3.1.1 Basic Mode Instruction 
 Type your Documents's path
 
 ```bash
@@ -104,14 +123,14 @@ $ C:\Users\Alpha\Desktop\IR\Assignment-1\data\data
 
 And wait until `Sorting completed!` is displayed.
 
-### Basic Mode Instruction 1.3.1.2
+### 1.3.1.2 Basic Mode Instruction 
 Type `query` to search
 
 ```bash
 $ query
 ```
 
-### Basic Mode Instruction 1.3.1.3
+### 1.3.1.3 Basic Mode Instruction 
 Input the query
 
 For Example
@@ -120,7 +139,7 @@ For Example
 $ Indians
 ```
 
-### Basic Mode Instruction 1.3.1.4
+### 1.3.1.4 Basic Mode Instruction 
 Check the results
 
 Relative documents and term's occur time would be display.
@@ -132,7 +151,7 @@ For Example
 Document name "D0601.M.250.A.A" have the term 'indians' two times.
 
 
-### Basic Mode Instruction 1.3.1.5
+### 1.3.1.5 Basic Mode Instruction 
 Terminate the program by typing 
 
 ```bash
@@ -140,7 +159,7 @@ $ exit
 ```
 
 
-### Advance Mode Instruction 1.3.2.1
+### 1.3.2.1 Advance Mode Instruction 
 
 Type your Documents's path
 
@@ -150,7 +169,7 @@ $ C:\Users\Alpha\Desktop\IR\Assignment-1\data\data
 
 And wait until `Sorting completed!` is displayed.
 
-### Advance Mode Instruction 1.3.2.2
+### 1.3.2.2 Advance Mode Instruction 
 
 Type `query` to search
 
@@ -158,7 +177,7 @@ Type `query` to search
 $ query
 ```
 
-### Advance Mode Instruction 1.3.2.3
+### 1.3.2.3 Advance Mode Instruction 
 
 Select phrase search or boolean search
 
@@ -172,7 +191,7 @@ or
 $ boolean
 ```
 
-### Advance Mode Instruction (Phrase Search) 1.3.2.4.1.1
+### 1.3.2.4.1.1 Advance Mode Instruction (Phrase Search) 
 
 Type the query
 
@@ -188,7 +207,7 @@ or
 $ indians comprise less
 ```
 
-### Advance Mode Instruction (Phrase Search) 1.3.2.4.1.2
+### 1.3.2.4.1.2 Advance Mode Instruction (Phrase Search) 
 
 Check the results
 
@@ -199,7 +218,7 @@ The results of the query is:
 `['D0601.M.250.A.A']`
 
 
-### Advance Mode Instruction (Phrase Search) 1.3.2.4.1.3
+### 1.3.2.4.1.3 Advance Mode Instruction (Phrase Search) 
 
 Terminate the program by typing 
 
@@ -207,7 +226,7 @@ Terminate the program by typing
 $ exit
 ```
 
-### Advance Mode Instruction (Boolean Search) 1.3.2.4.2.1
+### 1.3.2.4.2.1 Advance Mode Instruction (Boolean Search) 
 
 Type the query
 
@@ -223,11 +242,11 @@ or
 $ indians or less
 ```
 
-### Advance Mode Instruction (Boolean Search) 1.3.2.4.2.2
+### 1.3.2.4.2.2 Advance Mode Instruction (Boolean Search) 
 
 Check the results
 
-### Advance Mode Instruction (Boolean Search) 1.3.2.4.2.3
+### 1.3.2.4.2.3 Advance Mode Instruction (Boolean Search) 
 
 Terminate the program by typing 
 
@@ -235,7 +254,7 @@ Terminate the program by typing
 $ exit
 ```
 
-### Superior Mode Instruction 1.3.3.1
+### 1.3.3.1 Superior Mode Instruction 
 
 Type your Documents's path
 
@@ -246,7 +265,7 @@ $ C:\Users\Alpha\Desktop\IR\Assignment-1\data\data
 And wait until `Sorting completed!` is displayed.
 
 
-### Superior Mode Instruction 1.3.3.2
+### 1.3.3.2 Superior Mode Instruction 
 
 Type `query` to search
 
@@ -254,7 +273,7 @@ Type `query` to search
 $ query
 ```
 
-### Superior Mode Instruction 1.3.3.3
+### 1.3.3.3 Superior Mode Instruction 
 
 Type the query
 
@@ -264,7 +283,7 @@ For Example
 $ indians less comprise
 ```
 
-### Superior Mode Instruction 1.3.3.4
+### 1.3.3.4 Superior Mode Instruction 
 
 Check the results
 
@@ -279,7 +298,7 @@ The higher score indicates a better matched with the documents.
 
 
 
-### Superior Mode Instruction 1.3.3.5
+### 1.3.3.5 Superior Mode Instruction 
 
 Terminate the program by typing 
 
@@ -319,23 +338,31 @@ Calculate the IDF using the formula of log10(N/df)
 
 init(self):
 Display the command line interface of main menu to user.
+
 do_query_simple(self,file_collection):
 Get the query of user input of command line.
+
 do_query_boolean(self,file_collection):
 Get the query of user input of command line of using Boolean searching.
+
 do_query_multiwords(self,file_collection,position_information):
 Get the query of user input of command line of using Phase searching.
+
 do_query_ranking(self,final_word_list,file_collection,doc_idf):
 Get the query of user input of command line of using Vector Space Ranking searching.
+
 do_path_basic(self):
 Get the path of documents from user input.
+
 do_path_vector(self):
 Get the path of documents from user input when using vector space searching.
+
 display_results(self,data):
 Display the searching’s results.
 
 search_mode(self):
 Get the searching’s mode of user input. For user to select the searching’s mode.
+
 do_help(self):
 Display the command line instruction to users.
 
@@ -371,6 +398,9 @@ We had removed the stop word from documents. And transform all the term to lower
 For the requirement of ranking search. We use the vector space model to implement the TF-IDF and the cosine similarity. First, we did not use the same way of indexing in the basic version. We read all the document to make a term collection for the calculation of Document Frequency later. And store the total number of documents too. Then, we used a nested dictionary to store the Term Frequency of different documents. Then we created a Document frequency. We create a dictionary to store the document frequency of each term. The program read all the document to count the number of each term’s appearance. Then we use TF and df to calculate IDF by implemented the formula in the program. Then use TF and IDF to calculate TF-IDF weight. And also calculate the length of each document and do the normalization of the weight. For the query function, we pass the IDF to the searching program for calculating the weight of the query. Then we construct a dictionary of the query which is the term frequency in the same way. And calculate the weight by multiplied TF with IDF. And compute the cosine similarity by multiplied normalized weight of document with query’s weight. Use this as a score to store in the dictionary. Then the dictionary showed all the score of the document for this query. Sorted by descended and 0 scores of documented were removed. Then return the result to the user. The result showed the document with the score.
 
 
+For improve the indexing and searching quality, we use Hashtable in Python for both indexing and searching. The dictionary component in Python is using the data structure of Hashtable.
+
+
 <br>
 
 
@@ -386,6 +416,7 @@ For the requirement of ranking search. We use the vector space model to implemen
 
 
 Email:  Peter <chenqi1123344@gmail.com>
+
 Email:  Key <tavik002@gmail.com>
 
 
