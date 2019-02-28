@@ -14,6 +14,7 @@ from kivy.uix.popup import Popup
 from kivy.uix.boxlayout import BoxLayout
 from kivy.properties import ObjectProperty
 from kivy.uix.floatlayout import FloatLayout
+from kivy.uix.scrollview import ScrollView
 from kivy.factory import Factory
 from functools import partial
 from FileReading import termVectorFileReading,fileReading
@@ -98,8 +99,8 @@ class Query(Screen):
     def search(self):
         
         #get the user input query
+        self.manager.query_origin = self.ids.query.text
         self.manager.query = self.ids.query.text.lower()
-        
         #do the search
         if self.manager.mode =='basic':
             results = self.manager.do_query_simple(self.manager.file_collection)
@@ -150,7 +151,7 @@ class Query(Screen):
     
     #display the results by clicking the button
     def display_results(self, *args):
-        query_term = self.manager.query
+        query_term = self.manager.query_origin
         query_list = query_term.split(' ')
         if 'and' in query_list:
             #remove AND from query list
@@ -184,7 +185,7 @@ class Query(Screen):
                 parts = '[color=#E5D209]'+ parts +'[/color]'
             doc = doc + ' ' + parts
         self.manager.get_screen('dr').ids.content.text = doc
-        
+        print(doc)
 
 class DisplayResults(Screen):
     pass
@@ -197,6 +198,7 @@ class ScreenManagement(ScreenManager):
     doc_idf = {}
     final_word_list = []
     query = StringProperty()
+    query_origin = StringProperty()
     search_mode = StringProperty()
     doc_result_button = []
 

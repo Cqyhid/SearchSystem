@@ -50,6 +50,10 @@
    'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
    'GUI\\__pycache__\\TermVectorFileReading.cpython-36.pyc',
    'DATA'),
+  ('dist\\searchsystem_v1.0.0.zip',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem_v1.0.0.zip',
+   'DATA'),
   ('dist\\searchsystem\\api-ms-win-core-console-l1-1-0.dll',
    'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
    'GUI\\dist\\searchsystem\\api-ms-win-core-console-l1-1-0.dll',
@@ -210,13 +214,29 @@
    'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
    'GUI\\dist\\searchsystem\\base_library.zip',
    'DATA'),
+  ('dist\\searchsystem\\FileReading.py',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\FileReading.py',
+   'DATA'),
+  ('dist\\searchsystem\\Function.py',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\Function.py',
+   'DATA'),
   ('dist\\searchsystem\\glew32.dll',
    'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
    'GUI\\dist\\searchsystem\\glew32.dll',
    'DATA'),
+  ('dist\\searchsystem\\kivy_main.py',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\kivy_main.py',
+   'DATA'),
   ('dist\\searchsystem\\libffi-7.dll',
    'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
    'GUI\\dist\\searchsystem\\libffi-7.dll',
+   'DATA'),
+  ('dist\\searchsystem\\libFLAC-8.dll',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\libFLAC-8.dll',
    'DATA'),
   ('dist\\searchsystem\\libfreetype-6.dll',
    'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
@@ -242,13 +262,89 @@
    'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
    'GUI\\dist\\searchsystem\\libintl-8.dll',
    'DATA'),
+  ('dist\\searchsystem\\libjpeg-9.dll',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\libjpeg-9.dll',
+   'DATA'),
+  ('dist\\searchsystem\\libmodplug-1.dll',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\libmodplug-1.dll',
+   'DATA'),
+  ('dist\\searchsystem\\libmpg123-0.dll',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\libmpg123-0.dll',
+   'DATA'),
+  ('dist\\searchsystem\\libogg-0.dll',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\libogg-0.dll',
+   'DATA'),
   ('dist\\searchsystem\\libopenblas.BNVRK7633HSX7YVO2TADGR4A5KEKXJAW.gfortran-win_amd64.dll',
    'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
    'GUI\\dist\\searchsystem\\libopenblas.BNVRK7633HSX7YVO2TADGR4A5KEKXJAW.gfortran-win_amd64.dll',
    'DATA'),
+  ('dist\\searchsystem\\libpng16-16.dll',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\libpng16-16.dll',
+   'DATA'),
+  ('dist\\searchsystem\\libtiff-5.dll',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\libtiff-5.dll',
+   'DATA'),
+  ('dist\\searchsystem\\libvorbis-0.dll',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\libvorbis-0.dll',
+   'DATA'),
+  ('dist\\searchsystem\\libvorbisfile-3.dll',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\libvorbisfile-3.dll',
+   'DATA'),
+  ('dist\\searchsystem\\libwebp-7.dll',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\libwebp-7.dll',
+   'DATA'),
   ('dist\\searchsystem\\libwinpthread-1.dll',
    'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
    'GUI\\dist\\searchsystem\\libwinpthread-1.dll',
+   'DATA'),
+  ('dist\\searchsystem\\LICENSE.FLAC.txt',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\LICENSE.FLAC.txt',
+   'DATA'),
+  ('dist\\searchsystem\\LICENSE.freetype.txt',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\LICENSE.freetype.txt',
+   'DATA'),
+  ('dist\\searchsystem\\LICENSE.jpeg.txt',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\LICENSE.jpeg.txt',
+   'DATA'),
+  ('dist\\searchsystem\\LICENSE.modplug.txt',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\LICENSE.modplug.txt',
+   'DATA'),
+  ('dist\\searchsystem\\LICENSE.mpg123.txt',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\LICENSE.mpg123.txt',
+   'DATA'),
+  ('dist\\searchsystem\\LICENSE.ogg-vorbis.txt',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\LICENSE.ogg-vorbis.txt',
+   'DATA'),
+  ('dist\\searchsystem\\LICENSE.png.txt',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\LICENSE.png.txt',
+   'DATA'),
+  ('dist\\searchsystem\\LICENSE.tiff.txt',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\LICENSE.tiff.txt',
+   'DATA'),
+  ('dist\\searchsystem\\LICENSE.webp.txt',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\LICENSE.webp.txt',
+   'DATA'),
+  ('dist\\searchsystem\\LICENSE.zlib.txt',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\LICENSE.zlib.txt',
    'DATA'),
   ('dist\\searchsystem\\mfc140u.dll',
    'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
@@ -286,6 +382,10 @@
    'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
    'GUI\\dist\\searchsystem\\SDL2_ttf.dll',
    'DATA'),
+  ('dist\\searchsystem\\SearchModes.py',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\SearchModes.py',
+   'DATA'),
   ('dist\\searchsystem\\searchsystem.exe',
    'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
    'GUI\\dist\\searchsystem\\searchsystem.exe',
@@ -293,6 +393,14 @@
   ('dist\\searchsystem\\searchsystem.exe.manifest',
    'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
    'GUI\\dist\\searchsystem\\searchsystem.exe.manifest',
+   'DATA'),
+  ('dist\\searchsystem\\SearchSystem.kv',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\SearchSystem.kv',
+   'DATA'),
+  ('dist\\searchsystem\\searchsystem.spec',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\searchsystem.spec',
    'DATA'),
   ('dist\\searchsystem\\select.pyd',
    'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
@@ -385,6 +493,30 @@
   ('dist\\searchsystem\\_win32sysloader.pyd',
    'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
    'GUI\\dist\\searchsystem\\_win32sysloader.pyd',
+   'DATA'),
+  ('dist\\searchsystem\\__pycache__\\FileReading.cpython-36.pyc',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\__pycache__\\FileReading.cpython-36.pyc',
+   'DATA'),
+  ('dist\\searchsystem\\__pycache__\\Function.cpython-36.pyc',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\__pycache__\\Function.cpython-36.pyc',
+   'DATA'),
+  ('dist\\searchsystem\\__pycache__\\Interface.cpython-36.pyc',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\__pycache__\\Interface.cpython-36.pyc',
+   'DATA'),
+  ('dist\\searchsystem\\__pycache__\\kivy_main.cpython-36.pyc',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\__pycache__\\kivy_main.cpython-36.pyc',
+   'DATA'),
+  ('dist\\searchsystem\\__pycache__\\SearchModes.cpython-36.pyc',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\__pycache__\\SearchModes.cpython-36.pyc',
+   'DATA'),
+  ('dist\\searchsystem\\__pycache__\\TermVectorFileReading.cpython-36.pyc',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\__pycache__\\TermVectorFileReading.cpython-36.pyc',
    'DATA'),
   ('dist\\searchsystem\\win32com\\shell\\shell.pyd',
    'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
@@ -1178,6 +1310,70 @@
    'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
    'GUI\\dist\\searchsystem\\docutils\\parsers\\rst\\include\\xhtml1-symbol.txt',
    'DATA'),
+  ('dist\\searchsystem\\dist\\searchsystem\\searchsystem.exe',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\dist\\searchsystem\\searchsystem.exe',
+   'DATA'),
+  ('dist\\searchsystem\\dist\\searchsystem\\searchsystem.exe.manifest',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\dist\\searchsystem\\searchsystem.exe.manifest',
+   'DATA'),
+  ('dist\\searchsystem\\build\\searchsystem\\Analysis-00.toc',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\build\\searchsystem\\Analysis-00.toc',
+   'DATA'),
+  ('dist\\searchsystem\\build\\searchsystem\\base_library.zip',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\build\\searchsystem\\base_library.zip',
+   'DATA'),
+  ('dist\\searchsystem\\build\\searchsystem\\COLLECT-00.toc',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\build\\searchsystem\\COLLECT-00.toc',
+   'DATA'),
+  ('dist\\searchsystem\\build\\searchsystem\\EXE-00.toc',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\build\\searchsystem\\EXE-00.toc',
+   'DATA'),
+  ('dist\\searchsystem\\build\\searchsystem\\PKG-00.pkg',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\build\\searchsystem\\PKG-00.pkg',
+   'DATA'),
+  ('dist\\searchsystem\\build\\searchsystem\\PKG-00.toc',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\build\\searchsystem\\PKG-00.toc',
+   'DATA'),
+  ('dist\\searchsystem\\build\\searchsystem\\PYZ-00.pyz',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\build\\searchsystem\\PYZ-00.pyz',
+   'DATA'),
+  ('dist\\searchsystem\\build\\searchsystem\\PYZ-00.toc',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\build\\searchsystem\\PYZ-00.toc',
+   'DATA'),
+  ('dist\\searchsystem\\build\\searchsystem\\searchsystem.exe',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\build\\searchsystem\\searchsystem.exe',
+   'DATA'),
+  ('dist\\searchsystem\\build\\searchsystem\\searchsystem.exe.manifest',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\build\\searchsystem\\searchsystem.exe.manifest',
+   'DATA'),
+  ('dist\\searchsystem\\build\\searchsystem\\Tree-00.toc',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\build\\searchsystem\\Tree-00.toc',
+   'DATA'),
+  ('dist\\searchsystem\\build\\searchsystem\\Tree-01.toc',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\build\\searchsystem\\Tree-01.toc',
+   'DATA'),
+  ('dist\\searchsystem\\build\\searchsystem\\warn-searchsystem.txt',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\build\\searchsystem\\warn-searchsystem.txt',
+   'DATA'),
+  ('dist\\searchsystem\\build\\searchsystem\\xref-searchsystem.html',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\dist\\searchsystem\\build\\searchsystem\\xref-searchsystem.html',
+   'DATA'),
   ('build\\searchsystem\\Analysis-00.toc',
    'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
    'GUI\\build\\searchsystem\\Analysis-00.toc',
@@ -1225,6 +1421,18 @@
   ('build\\searchsystem\\Tree-01.toc',
    'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
    'GUI\\build\\searchsystem\\Tree-01.toc',
+   'DATA'),
+  ('build\\searchsystem\\Tree-02.toc',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\build\\searchsystem\\Tree-02.toc',
+   'DATA'),
+  ('build\\searchsystem\\Tree-03.toc',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\build\\searchsystem\\Tree-03.toc',
+   'DATA'),
+  ('build\\searchsystem\\Tree-04.toc',
+   'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
+   'GUI\\build\\searchsystem\\Tree-04.toc',
    'DATA'),
   ('build\\searchsystem\\warn-searchsystem.txt',
    'C:\\Users\\Alpha\\Desktop\\IR\\Assignment-1\\SearchSystem - '
